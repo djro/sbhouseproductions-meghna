@@ -2,26 +2,15 @@ enable : true
 heading : Our
 headingSpan : Services
 serviceItem :
-  - icon : tf-globe
-    title : WordPress Theme
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-ion-laptop
-    title : Responsive Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
+  - icon : tf-lifesaver
+    title : Pre-Production
+    content : As one of the most challenging stages in any project, we specialize in providing Pre-Production to our clients. With our team of experts, rest assured that your visual content will be nothing short of exceptional.
+
   - icon : tf-genius
-    title : Media &amp; Advertisement
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-dial
-    title : Graphic Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : Creative Development
+    content : When it comes to Creative Development, you can count on us to continue working until it’s exactly what you’re looking for while still staying within your timeline and budget. If you have questions, contact us today.
     
   - icon : tf-target3
-    title : Apps Development
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-lifesaver
-    title : Networking
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : Post-Production
+    content : With a team dedicated to Post-Production, we guarantee to provide the highest quality result for all of our clients. No matter what type of project you’re looking to create, we’re here to make it reality.
+  
