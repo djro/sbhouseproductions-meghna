@@ -281,29 +281,33 @@ function initialize() {
 		}
 	};
 
-	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+	var mapCanvas = document.getElementById('map-canvas');
+
+	if(mapCanvas != null){
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 
-	var marker = new google.maps.Marker({
-		position: myLatLng,
-		map: map,
-		title: '',
-	});
+		var marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: '',
+		});
 
 
-	google.maps.event.addListener(marker, 'click', function () {
-		infowindow.open(map, marker);
-	});
+		google.maps.event.addListener(marker, 'click', function () {
+			infowindow.open(map, marker);
+		});
 
-	var styledMapOptions = {
-		name: 'US Road Atlas'
-	};
+		var styledMapOptions = {
+			name: 'US Road Atlas'
+		};
 
-	var usRoadMapType = new google.maps.StyledMapType(
-		roadAtlasStyles, styledMapOptions);
+		var usRoadMapType = new google.maps.StyledMapType(
+			roadAtlasStyles, styledMapOptions);
 
-	map.mapTypes.set('roadatlas', usRoadMapType);
-	map.setMapTypeId('roadatlas');
+		map.mapTypes.set('roadatlas', usRoadMapType);
+		map.setMapTypeId('roadatlas');
+	}
 }
 
 // Check init google maps only if "google" has been defined.
