@@ -34,13 +34,12 @@
 {{ if .Site.Data.about2.enable }}
 {{"<!-- about 2 -->" | safeHTML}}
 <section class="section about-2 padding-0 bg-dark">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2 padding-0 ">
-                <img class="img-responsive" src="{{ .Site.Data.about2.image | absURL}}" alt="image">
+            <div class="col-md-4 padding-0 ">
+                <img class="img-responsive img-responsive-center" src="{{ .Site.Data.about2.image | absURL}}" alt="image">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="content-block">
                    {{with .Site.Data.about2.title}} <h2>{{ . }}</h2> {{ end }}
                    {{with .Site.Data.about2.description}} <p>{{ . }}</p> {{ end }}
@@ -62,7 +61,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
         </div>
     </div>
 </section>
