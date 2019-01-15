@@ -1,11 +1,6 @@
 {{ if .Site.Params.banner.enable }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
 <section class="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
-    <video id="video_background" class="hide-for-small hide-for-medium" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="opacity: 1;">
-        <source src="videos/movie.mp4" type="video/mp4">
-        <source src="videos/movie.webm" type="video/webm">
-        Video not supported
-        </video>
     <div class="block">
         <div class="video-button">
            {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
