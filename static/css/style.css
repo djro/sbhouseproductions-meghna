@@ -1632,7 +1632,7 @@ a:hover {
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  /* color: #55606a; */
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
