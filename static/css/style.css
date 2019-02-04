@@ -705,6 +705,26 @@ a:hover {
   z-index: -1;
 }
 
+.hero-chevron-down {
+  display:block;
+  position:absolute;
+  bottom:60px;
+  left:50%;
+  margin-left:-24px;
+  text-indent:-999em;
+  width:48px;
+  z-index:88;
+  height:25px;
+  opacity:0;
+  background:url(../images/chevro-down.png) no-repeat 0 0;
+  background-size:48px auto
+ }
+
+.hero-chevron-down.in {
+  bottom:40px;
+  opacity:1
+}
+
 /*=================================================================
   About us section
 ==================================================================*/
