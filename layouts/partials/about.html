@@ -49,7 +49,7 @@
             {{ range .Site.Data.about.aboutItem }}
             {{"<!-- About item -->" | safeHTML}}
             <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms">
-                <a href="{{ .URL | absURL }}">
+                <a href="{{ .url }}">
                     <div class="block">
                         <div class="icon-box">
                                 {{with .icon}}<i class="{{ . }}"></i>{{ end }}
